@@ -7,8 +7,8 @@ int main(void)
 {
 	using namespace std;
 	int n;
-	cin >>n;
-	for(int i = 1; i<=n; i++)
+	cin >> n;
+	while(n--)
 	{
 		string x;
 		cin >> x;
