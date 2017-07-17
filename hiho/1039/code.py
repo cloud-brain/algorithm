@@ -30,7 +30,7 @@ def max_clear_letter(x):
     return max_clear
 
 
-n = input()
-for i in range(n - 1):
+n = int(input())
+for i in range(n):
     x = input()
     print(max_clear_letter(x))
